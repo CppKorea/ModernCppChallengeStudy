@@ -4,7 +4,7 @@
 
 ## 날짜
 
-- 토요일 오전 10시 ~ 오후 1시
+- 토/일요일 오전 10시 ~ 오후 1시
 
 ## 장소
 
@@ -22,75 +22,129 @@
 
 ## 일정
 
-- 1월 13일
+- 10월 6일 / 7일
     - 자기 소개
+    - 아이스 브레이킹
     - 스터디 진행 안내
-    - 발표 순서 결정
-- 1월 20일 (발표자 : 남정호)
-    - Chatper 1: Function Templates
-    - Chapter 2: Class Templates
-- 1월 27일
-    - 휴식
-- 2월 3일 (발표자 : 정승호)
-    - Chapter 3: Nontype Template Parameters
-    - Chapter 4: Variadic Templates
-- 2월 10일 (발표자 : 옥찬호)
-    - Chapter 5: Tricky Basics
-- 2월 17일
-    - 휴식 (설날 연휴)
-- 2월 24일 (발표자 : 옥찬호)
-    - Chapter 6: Move Semantics and ```enable_if<>```
-    - Chapter 7: By Value or by Reference?
-- 3월 3일 (발표자 : 옥찬호, 배일섭)
-    - Chapter 8: Compile-Time Programming
-    - Chapter 9: Using Templates in Practice
-    - Chapter 10: Basic Template Terminology
-    - Chapter 11: Generic Libraries
-- 3월 10일 (발표자 : 김은재)
-    - Chapter 12: Fundamentals in Depth
-- 3월 17일
-    - 휴식
-- 3월 24일 (발표자 : 박동하)
-    - Chapter 13: Names in Templates
-    - Chapter 14: Instantiation
-- 3월 31일 (발표자 : Daniel)
-    - Chapter 15: Template Argument Deduction
-- 4월 7일 (발표자 : 최두선)
-    - Chapter 16: Specialization and Overloading
-    - Chapter 17: Future Directions
-- 4월 14일
-    - 휴식
-- 4월 21일 (발표자 : 정종채)
-    - Chapter 18: The Polymorphic Power of Templates
-    - Chapter 19: Implementing Traits
-- 4월 28일 (발표차 : 유원상)
-    - Chapter 19: Implementing Traits
-- 5월 5일
-    - 휴식
-- 5월 12일
-    - 휴식
-- 5월 19일 (발표자 : 정은아)
-    - Chapter 20: Overloading on Type Properties
-    - Chapter 21: Templates and Inheritance
-- 5월 26일 (발표자 : 정은식)
-    - Chapter 22: Bridging Static and Dynamic Polymorphism
-    - Chapter 23: Metaprogramming
-- 6월 2일
-    - 휴식
-- 6월 9일 (발표자 : 정원혁)
-    - Chapter 24: Typelists
-- 6월 23일 (발표자 : 박동하)
-    - Chapter 25: Tuples
-- 6월 30일 (발표자 : 남정호)
-    - Chapter 26: Discriminated Unions
-    - Chapter 27: Expression Templates
-- 7월 7일 (발표자 : 옥찬호)
-    - Chapter 28: Debugging Templates, Appendixes
-    - Appendix A: The One-Definition Rule
-    - Appendix B: Value Categories
-    - Appendix C: Overload Resolution
-    - Appendix D: Standard Type Utilities
-    - Appendix E: Concepts
+- 10월 20일
+    - Chapter 1: Math Problems
+        - 1. Sum of naturals divisible by 3 and 5
+        - 2. Greatest common divisior
+        - 3. Least common multiple
+        - 4. Largest prime smaller than given number
+        - 5. Sexy prime pairs
+        - 6. Abundant numbers
+        - 7. Amicable numbers
+        - 8. Armstrong numbers
+        - 9. Prime factors of a number
+        - 10. Gray code
+        - 11. Converting numerical values to Roman
+        - 12. Largest Collatz sequence
+        - 13. Computing the value of Pi
+        - 14. Validating ISBNs
+- 11월 3일 / 4일
+    - Chapter 2: Language Features
+        - 15. IPv4 data type
+        - 16. Enumerating IPv4 addresses in a range
+        - 17. Creating a 2D array with basic operations
+        - 18. Minimum function with any number of arguments
+        - 19. Adding a range of values to a container
+        - 20. Container any, all, none
+        - 21. System handle wrapper
+        - 22. Literals of various temperature scales
+    - Chapter 3: Strings and Regular Expressions
+        - 23. Binary to string conversion
+        - 24. String to binary conversion
+        - 25. Capitalizing an article title
+        - 26. Joining strings together separated by a delimiter
+        - 27. Splitting a string into tokens with a list of possible delimiters
+        - 28. Longest palindromic substring
+        - 29. License plate validation
+        - 30. Extracting URL parts
+        - 31. Transforming dates in strings    
+- 11월 17일 / 18일
+    - Chapter 4: Streams and Filesystems
+        - 32. Pascal's triangle
+        - 33. Tabular printing of a list of processes
+        - 34. Removing empty lines from a text file
+        - 35. Computing the size of a directory
+        - 36. Deleting files older than a given date
+        - 37. Finding files in a directory that match a regular expression
+        - 38. Temporary log files
+    - Chapter 5: Date and Time
+        - 39. Measuring function execution time
+        - 40. Number of days between two dates
+        - 41. Day of the week
+        - 42. Day and week of the year
+        - 43. Meeting time for multiple time zones
+        - 44. Monthly calendar
+- 12월 1일 / 2일
+    - Chapter 6: Algorithms and Data Structures
+        - 45. Priority queue
+        - 46. Circular buffer
+        - 47. Double buffer
+        - 48. The most frequent element in a range
+        - 49. Text histogram
+        - 50. Filtering a list of phone numbers
+        - 51. Transforming a list of phone numbers
+        - 52. Generating all the permutations of a string
+        - 53. Average rating of movies
+        - 54. Pairwise algorithm
+        - 55. Zip algorithm
+        - 56. Select algorithm
+        - 57. Sort algorithm
+        - 58. The shortest path between nodes
+        - 59. The Weasel program
+        - 60. The Game of Life
+- 12월 15일 / 16일
+    - Chapter 7: Concurrency
+        - 61. Parallel transform algorithm
+        - 62. Parallel min and max element algorithms using threads
+        - 63. Parallel min and max element algorithms using asynchronous functions
+        - 64. Parallel sort algorithm
+        - 65. Thread-safe logging to the console
+        - 66. Customer service system
+    - Chapter 8: Design Patterns
+        - 67. Validating passwords
+        - 68. Generating random passwords
+        - 69. Generating social security numbers
+        - 70. Approval system
+        - 71. Observable vector container
+        - 72. Computing order price with discounts
+- 1월 5일 / 6일
+    - Chapter 9: Data Serialization
+        - 73. Serializing and deserializing data to/from XML
+        - 74. Selecting data from XML using XPath
+        - 75. Serializing data to JSON
+        - 76. Deserializing data from JSON
+        - 77. Printing a list of movies to a PDF
+        - 78. Creating a PDF from a collection of images
+    - Chapter 10: Archives, Images, and Databases
+        - 79. Finding files in a ZIP archive
+        - 80. Compressing and decompressing files to/from a ZIP archive
+        - 81. Compressing and decompressing files to/from a ZIP archive with a password
+        - 82. Creating a PNG that represents a national flag
+        - 83. Creating verification text PNG images
+        - 84. EAN-13 barcode generator
+        - 85. Reading movies from an SQLite database
+        - 86. Inserting movies into SQLite database transactionally
+        - 87. Handling movie images in an SQLite database
+- 1월 19일 / 20일
+    - Chapter 11: Cryptography
+        - 88. Caesar cipher
+        - 89. Vigenere cipher
+        - 90. Base64 encoding and decoding
+        - 91. Validating user credentials
+        - 92. Computing file hashes
+        - 93. Encrypting and decrypting files
+        - 94. File signing
+    - Chapter 12: Networking and Services
+        - 95. Finding the IP address of a host
+        - 96. Client-server Fizz-Buzz
+        - 97. Bitcoin exchange rates
+        - 98. Fetching emails using IMAP
+        - 99. Translating text to any language
+        - 100. Detecting faces in a picture
     - 스터디 마무리
     - 비용 정산
 
@@ -106,7 +160,7 @@
 
 ## 비용
 
-- 20만원 (예치금 3만원 + 장소 대여비 1만원 * 17회)
+- 12만원 (예치금 4만원 + 장소 대여비 1만원 * 8회)
 
 ## 선납금 및 장소 대여비 입금 계좌
 
@@ -114,5 +168,5 @@
 
 ## 스터디 진행 도우미
 
-- 1분반 : 옥찬호
-- 2분반 : 박동하
+- 1분반(토요일) : 옥찬호
+- 2분반(일요일) : 박동하

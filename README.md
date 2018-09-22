@@ -28,123 +28,123 @@
     - 스터디 진행 안내
 - 10월 20일
     - Chapter 1: Math Problems
-        - 1. Sum of naturals divisible by 3 and 5
-        - 2. Greatest common divisior
-        - 3. Least common multiple
-        - 4. Largest prime smaller than given number
-        - 5. Sexy prime pairs
-        - 6. Abundant numbers
-        - 7. Amicable numbers
-        - 8. Armstrong numbers
-        - 9. Prime factors of a number
-        - 10. Gray code
-        - 11. Converting numerical values to Roman
-        - 12. Largest Collatz sequence
-        - 13. Computing the value of Pi
-        - 14. Validating ISBNs
+        - Sum of naturals divisible by 3 and 5
+        - Greatest common divisior
+        - Least common multiple
+        - Largest prime smaller than given number
+        - Sexy prime pairs
+        - Abundant numbers
+        - Amicable numbers
+        - Armstrong numbers
+        - Prime factors of a number
+        - Gray code
+        - Converting numerical values to Roman
+        - Largest Collatz sequence
+        - Computing the value of Pi
+        - Validating ISBNs
 - 11월 3일 / 4일
     - Chapter 2: Language Features
-        - 15. IPv4 data type
-        - 16. Enumerating IPv4 addresses in a range
-        - 17. Creating a 2D array with basic operations
-        - 18. Minimum function with any number of arguments
-        - 19. Adding a range of values to a container
-        - 20. Container any, all, none
-        - 21. System handle wrapper
-        - 22. Literals of various temperature scales
+        - IPv4 data type
+        - Enumerating IPv4 addresses in a range
+        - Creating a 2D array with basic operations
+        - Minimum function with any number of arguments
+        - Adding a range of values to a container
+        - Container any, all, none
+        - System handle wrapper
+        - Literals of various temperature scales
     - Chapter 3: Strings and Regular Expressions
-        - 23. Binary to string conversion
-        - 24. String to binary conversion
-        - 25. Capitalizing an article title
-        - 26. Joining strings together separated by a delimiter
-        - 27. Splitting a string into tokens with a list of possible delimiters
-        - 28. Longest palindromic substring
-        - 29. License plate validation
-        - 30. Extracting URL parts
-        - 31. Transforming dates in strings    
+        - Binary to string conversion
+        - String to binary conversion
+        - Capitalizing an article title
+        - Joining strings together separated by a delimiter
+        - Splitting a string into tokens with a list of possible delimiters
+        - Longest palindromic substring
+        - License plate validation
+        - Extracting URL parts
+        - Transforming dates in strings    
 - 11월 17일 / 18일
     - Chapter 4: Streams and Filesystems
-        - 32. Pascal's triangle
-        - 33. Tabular printing of a list of processes
-        - 34. Removing empty lines from a text file
-        - 35. Computing the size of a directory
-        - 36. Deleting files older than a given date
-        - 37. Finding files in a directory that match a regular expression
-        - 38. Temporary log files
+        - Pascal's triangle
+        - Tabular printing of a list of processes
+        - Removing empty lines from a text file
+        - Computing the size of a directory
+        - Deleting files older than a given date
+        - Finding files in a directory that match a regular expression
+        - Temporary log files
     - Chapter 5: Date and Time
-        - 39. Measuring function execution time
-        - 40. Number of days between two dates
-        - 41. Day of the week
-        - 42. Day and week of the year
-        - 43. Meeting time for multiple time zones
-        - 44. Monthly calendar
+        - Measuring function execution time
+        - Number of days between two dates
+        - Day of the week
+        - Day and week of the year
+        - Meeting time for multiple time zones
+        - Monthly calendar
 - 12월 1일 / 2일
     - Chapter 6: Algorithms and Data Structures
-        - 45. Priority queue
-        - 46. Circular buffer
-        - 47. Double buffer
-        - 48. The most frequent element in a range
-        - 49. Text histogram
-        - 50. Filtering a list of phone numbers
-        - 51. Transforming a list of phone numbers
-        - 52. Generating all the permutations of a string
-        - 53. Average rating of movies
-        - 54. Pairwise algorithm
-        - 55. Zip algorithm
-        - 56. Select algorithm
-        - 57. Sort algorithm
-        - 58. The shortest path between nodes
-        - 59. The Weasel program
-        - 60. The Game of Life
+        - Priority queue
+        - Circular buffer
+        - Double buffer
+        - The most frequent element in a range
+        - Text histogram
+        - Filtering a list of phone numbers
+        - Transforming a list of phone numbers
+        - Generating all the permutations of a string
+        - Average rating of movies
+        - Pairwise algorithm
+        - Zip algorithm
+        - Select algorithm
+        - Sort algorithm
+        - The shortest path between nodes
+        - The Weasel program
+        - The Game of Life
 - 12월 15일 / 16일
     - Chapter 7: Concurrency
-        - 61. Parallel transform algorithm
-        - 62. Parallel min and max element algorithms using threads
-        - 63. Parallel min and max element algorithms using asynchronous functions
-        - 64. Parallel sort algorithm
-        - 65. Thread-safe logging to the console
-        - 66. Customer service system
+        - Parallel transform algorithm
+        - Parallel min and max element algorithms using threads
+        - Parallel min and max element algorithms using asynchronous functions
+        - Parallel sort algorithm
+        - Thread-safe logging to the console
+        - Customer service system
     - Chapter 8: Design Patterns
-        - 67. Validating passwords
-        - 68. Generating random passwords
-        - 69. Generating social security numbers
-        - 70. Approval system
-        - 71. Observable vector container
-        - 72. Computing order price with discounts
+        - Validating passwords
+        - Generating random passwords
+        - Generating social security numbers
+        - Approval system
+        - Observable vector container
+        - Computing order price with discounts
 - 1월 5일 / 6일
     - Chapter 9: Data Serialization
-        - 73. Serializing and deserializing data to/from XML
-        - 74. Selecting data from XML using XPath
-        - 75. Serializing data to JSON
-        - 76. Deserializing data from JSON
-        - 77. Printing a list of movies to a PDF
-        - 78. Creating a PDF from a collection of images
+        - Serializing and deserializing data to/from XML
+        - Selecting data from XML using XPath
+        - Serializing data to JSON
+        - Deserializing data from JSON
+        - Printing a list of movies to a PDF
+        - Creating a PDF from a collection of images
     - Chapter 10: Archives, Images, and Databases
-        - 79. Finding files in a ZIP archive
-        - 80. Compressing and decompressing files to/from a ZIP archive
-        - 81. Compressing and decompressing files to/from a ZIP archive with a password
-        - 82. Creating a PNG that represents a national flag
-        - 83. Creating verification text PNG images
-        - 84. EAN-13 barcode generator
-        - 85. Reading movies from an SQLite database
-        - 86. Inserting movies into SQLite database transactionally
-        - 87. Handling movie images in an SQLite database
+        - Finding files in a ZIP archive
+        - Compressing and decompressing files to/from a ZIP archive
+        - Compressing and decompressing files to/from a ZIP archive with a password
+        - Creating a PNG that represents a national flag
+        - Creating verification text PNG images
+        - EAN-13 barcode generator
+        - Reading movies from an SQLite database
+        - Inserting movies into SQLite database transactionally
+        - Handling movie images in an SQLite database
 - 1월 19일 / 20일
     - Chapter 11: Cryptography
-        - 88. Caesar cipher
-        - 89. Vigenere cipher
-        - 90. Base64 encoding and decoding
-        - 91. Validating user credentials
-        - 92. Computing file hashes
-        - 93. Encrypting and decrypting files
-        - 94. File signing
+        - Caesar cipher
+        - Vigenere cipher
+        - Base64 encoding and decoding
+        - Validating user credentials
+        - Computing file hashes
+        - Encrypting and decrypting files
+        - File signing
     - Chapter 12: Networking and Services
-        - 95. Finding the IP address of a host
-        - 96. Client-server Fizz-Buzz
-        - 97. Bitcoin exchange rates
-        - 98. Fetching emails using IMAP
-        - 99. Translating text to any language
-        - 100. Detecting faces in a picture
+        - Finding the IP address of a host
+        - Client-server Fizz-Buzz
+        - Bitcoin exchange rates
+        - Fetching emails using IMAP
+        - Translating text to any language
+        - Detecting faces in a picture
     - 스터디 마무리
     - 비용 정산
 

@@ -3,6 +3,9 @@ cmake_minimum_required(VERSION 3.1)
 
 project(ModernCppChallenge LANGUAGES CXX)
 
+set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/Scripts)
+include(GetModules)
+
 add_subdirectory(Math)          # Ch.1 
 add_subdirectory(Language)      # Ch.2
 add_subdirectory(Regex)         # Ch.3
@@ -16,3 +19,4 @@ add_subdirectory(Database)      # Ch.10
 add_subdirectory(Images)        # 
 add_subdirectory(Cryptography)  # Ch.11
 
+add_subdirectory(Extra)         # Bonus challenge!

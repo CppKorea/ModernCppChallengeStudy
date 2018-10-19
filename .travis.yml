@@ -1,0 +1,76 @@
+sudo: false
+
+notifications:
+  email:
+    - luncliff@gmail.com
+
+git:
+  submodules: true
+  depth: 3
+  
+language: cpp
+
+before_install:
+  - echo "${TRAVIS_OS_NAME} ${TRAVIS_BUILD_DIR} ${TRAVIS_BUILD_ID}"
+
+# delegate the work to script
+install:
+  - cd ${TRAVIS_BUILD_DIR} ;
+  - if [ "${TRAVIS_OS_NAME}" == "linux" ]; then 
+      bash ./Scripts/linux-setup.sh
+    fi
+  - if [ "${TRAVIS_OS_NAME}" == "osx" ]; then 
+      bash ./Scripts/mac-setup.sh
+    fi
+
+before_script:  
+  - echo "${TRAVIS_COMMIT} ${TRAVIS_TAG}"
+
+# delegate the work to script
+script:
+  - if [ "${TRAVIS_OS_NAME}" == "linux" ]; then 
+      bash ./Scripts/linux-build.sh ${CONFIG} ${BUILD_SHARED}
+    fi
+  - if [ "${TRAVIS_OS_NAME}" == "osx" ]; then 
+      bash ./Scripts/mac-build.sh   ${CONFIG} ${BUILD_SHARED}
+    fi
+
+after_success:
+  - tree -L 3 ./Solved;
+
+matrix: 
+  include:
+    # MacOS : x86_64 Debug
+    - os: osx
+      osx_image: xcode9.4
+      compiler: clang
+      addons:
+        homebrew:
+          update: true
+          packages:
+            - tree
+            - ninja
+      env:
+        - CONFIG=Debug
+        - BUILD_SHARED=true
+    # Linux : x86_64 Debug
+    - os: linux
+      compiler: clang
+      addons:
+        apt:
+          update: true
+          sources:
+            - ubuntu-toolchain-r-test
+            - llvm-toolchain-trusty-6.0
+          packages:
+            - ninja-build
+            - tree
+            - llvm-6.0
+            - clang-6.0
+            - libc++1
+            - libc++-dev  
+            - libc++abi1
+            - libc++abi-dev
+      env:
+        - CONFIG=Debug
+        - BUILD_SHARED=true

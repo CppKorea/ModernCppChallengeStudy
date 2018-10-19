@@ -1,6 +1,28 @@
 #include <gsl/gsl>
 
-int main(int argc, char* argv[])
+// create `main` function for catch
+#define CATCH_CONFIG_MAIN   
+#include <catch2/catch.hpp>
+
+// Redirect CMake's #define to C++ constexpr string
+constexpr auto TestName = PROJECT_NAME_STRING; 
+
+// int main(int argc, char* argv[])
+// {
+//     return 0;
+// }
+
+TEST_CASE(TestName, "[ch01]")
 {
-    return 0;
+    // INFO(TestName);
+    SECTION("user1")
+    {
+        INFO("user1")
+        REQUIRE(true);
+    }
+    SECTION("user2")
+    {
+        INFO("user1")
+        REQUIRE_FALSE(false);
+    }
 }

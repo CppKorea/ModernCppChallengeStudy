@@ -18,7 +18,7 @@
 윈도우는 cmd 보다는 PowerShell을 사용해 빌드하는 것을 전제합니다.  
 경우에 따라서는 cmd 스크립트를 작성할 수 있으므로, 이 경우는 `.bat`파일을 별도로 생성하여 작성하시면 됩니다.
 
-```ps
+```powershell
 git clone https://github.com/CppKorea/ModernCppChallenge CppChallenge
 Set-Location -Path ./Path/To/CppChallenge
 
@@ -59,7 +59,7 @@ bash ./Scripts/mac-build.sh Debug     # 프로젝트 생성 + 빌드
 
 #### Windows
 
-```ps
+```powershell
 & ./Scripts/run-test.ps1 -Path ./Solved; # Build 에서 사용한 경로
 ```
 

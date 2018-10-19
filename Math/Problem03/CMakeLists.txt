@@ -10,6 +10,11 @@ project(${ProjectName} LANGUAGES CXX)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
+target_compile_definitions(${PROJECT_NAME}
+PRIVATE
+    PROJECT_NAME_STRING="${PROJECT_NAME}"
+)
+
 if(MSVC)
     target_compile_options(${PROJECT_NAME}
     PRIVATE
@@ -29,15 +34,9 @@ PRIVATE
 
 target_link_libraries(${PROJECT_NAME}
 PRIVATE
-    GSL
+    GSL Catch2::Catch2
 )
 
 install(TARGETS ${PROJECT_NAME}
     DESTINATION ${CMAKE_INSTALL_PREFIX}
 )
-
-# message(STATUS "${PROJECT_NAME}")
-# message(STATUS "${CMAKE_CURRENT_BINARY_DIR}")
-# message(STATUS "${CMAKE_CURRENT_LIST_DIR}")
-# message(STATUS "${CMAKE_CURRENT_SOURCE_DIR}")
-

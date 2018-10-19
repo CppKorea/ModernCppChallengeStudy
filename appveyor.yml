@@ -51,12 +51,12 @@ for:
     - ps: Write-Host $env:PLATFORM $env:CONFIGURATION
     - ps: ./Scripts/win-setup.ps1;
   build_script:
-    - ps: ./Scripts/win-build.ps1 -InstallPath .\Solved\ -BuildType Debug -BuildShared $False;
+    - ps: ./Scripts/win-build.ps1 -InstallPath .\Solved\ -BuildShared $False;
   after_build:
     # Rename the variable for build output
     - ps: if( $env:PLATFORM -eq "x86" ){ $env:PLATFORM="Win32"; }
   before_test:
     - ps: $Dir= "$env:APPVEYOR_BUILD_FOLDER/Solved/"
-    - ps: $Params="--reporter compact"
+    - ps: $Args="--reporter compact"
   test_script:
-    - ps: ./Scripts/run-test.ps1 -Path $Dir -TestParams $Params
+    - ps: ./Scripts/run-test.ps1 -Path $Dir -TestParams $Args

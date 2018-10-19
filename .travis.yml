@@ -37,7 +37,7 @@ script:
 
 after_success:
   - tree -L 3 ./Solved;
-  - bash ./Scripts/run-test.sh ;
+  - bash ./Scripts/run-test.sh ./Solved --reporter compact;
 
 matrix: 
   include:

@@ -5,7 +5,7 @@ notifications:
     - luncliff@gmail.com
 
 git:
-  submodules: true
+  submodules: false
   depth: 3
   
 language: cpp
@@ -15,12 +15,12 @@ before_install:
 
 # delegate the work to script
 install:
-  - cd ${TRAVIS_BUILD_DIR} ;
+  - cd ${TRAVIS_BUILD_DIR} ; pwd ;
   - if [ "${TRAVIS_OS_NAME}" == "linux" ]; then 
-      bash ./Scripts/linux-setup.sh
+      bash ./Scripts/linux-setup.sh ;
     fi
   - if [ "${TRAVIS_OS_NAME}" == "osx" ]; then 
-      bash ./Scripts/mac-setup.sh
+      bash ./Scripts/mac-setup.sh ;
     fi
 
 before_script:  
@@ -29,10 +29,10 @@ before_script:
 # delegate the work to script
 script:
   - if [ "${TRAVIS_OS_NAME}" == "linux" ]; then 
-      bash ./Scripts/linux-build.sh ${CONFIG} ${BUILD_SHARED}
+      bash ./Scripts/linux-build.sh ${CONFIG} ${BUILD_SHARED} ;
     fi
   - if [ "${TRAVIS_OS_NAME}" == "osx" ]; then 
-      bash ./Scripts/mac-build.sh   ${CONFIG} ${BUILD_SHARED}
+      bash ./Scripts/mac-build.sh   ${CONFIG} ${BUILD_SHARED} ;
     fi
 
 after_success:
@@ -55,7 +55,7 @@ matrix:
         - BUILD_SHARED=true
     # Linux : x86_64 Debug
     - os: linux
-      compiler: clang
+      compiler: clang-6.0
       addons:
         apt:
           update: true

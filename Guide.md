@@ -1,9 +1,9 @@
-## Note
+# 가이드라인
 
- - 외부 라이브러리를 git submodule을 사용해 가져오는 경우,   
-   [External](./External) 디렉터리 밑에 배치해주시면 됩니다
- - 이미 빌드 된 형태로 가져와서 사용하는 경우,   
-   [External/include](./External)와 [External/lib](./External)에 배치해주시면 됩니다
+* 외부 라이브러리를 git submodule을 사용해 가져오는 경우,  
+  [External](./External) 디렉터리 밑에 배치해주시면 됩니다
+* 이미 빌드 된 형태로 가져와서 사용하는 경우,  
+  [External/include](./External)와 [External/lib](./External)에 배치해주시면 됩니다
 
 ## How To
 

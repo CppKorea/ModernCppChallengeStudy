@@ -11,7 +11,7 @@ include(GetModules)
 
 # Ch.1 
 add_subdirectory(Math/Problem1)
-# add_subdirectory(Math/Problem2)
+add_subdirectory(Math/Problem2)
 # add_subdirectory(Math/Problem3)
 # add_subdirectory(Math/Problem4)
 # add_subdirectory(Math/Problem5)
